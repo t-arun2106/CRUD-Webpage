@@ -1,0 +1,60 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: #6E6E6E;
+    flex-wrap: wrap;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.form-field{
+    min-width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+label{
+    padding-left: 10px ;
+}
+input{
+    width:230px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Button{
+    padding: 5px 10px;
+    border-style: none;
+    font-weight: bold;
+    background-color: #FDD935;
+    color: black;
+}
+table,th,td{
+    border: 2px solid black;
+    padding:5px 10px;
+}
+
+.App h2{
+    margin-bottom: 10px;
+}
+
+
